@@ -13,7 +13,7 @@
 }
 
 body{
-    height: 2500px;
+    height: 1500px;
     background-color: var(--background);
     font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -238,4 +238,20 @@ footer h6{
 footer p{
     text-align: center;
     color: #474747;
+}
+/* PÁGINA DE CADASTRO */
+
+.titulo_pagina{
+    background-image: url("../Imagens/cadastro.png");
+    width: 100%;
+    background-attachment: fixed;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: flex-start;
+    padding-top: 3em;
 }
