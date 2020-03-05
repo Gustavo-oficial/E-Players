@@ -327,3 +327,35 @@ input[type="radio"]{
 fieldset label{
     margin-right: 0.5em;
 }
+@media screen and (max-width: 1200px){
+    .campea{
+        right: 0%;
+    }
+    .sobre .container div{
+        width: 50%;
+    }
+    .container{
+        width: 95%;
+    }
+
+}
+/* Fim media max 1200px */
+@media screen and (max-width: 768px){
+    header img{
+        max-width: 180px;
+    }
+    .container{
+        width: 98%;
+    }
+    .campea{
+        max-width: 450px;
+        margin-top: 60px;
+        right: -60px;
+    }
+    .sobre .container div{
+        width: 55%;
+        margin-left: 25px;
+    }
+  
+}
+/* Fim media 768px */
