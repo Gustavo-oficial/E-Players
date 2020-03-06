@@ -326,6 +326,12 @@ input[type="radio"]{
 fieldset label{
     margin-right: 0.5em;
 }
+.cabecalho .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+    display: none;
+}
+
 @media screen and (max-width: 1200px){
     .campea{
         right: 0%;
@@ -339,6 +345,7 @@ fieldset label{
 
 }
 /* Fim media max 1200px */
+
 @media screen and (max-width: 768px){
     header img{
         max-width: 180px;
@@ -393,3 +400,36 @@ fieldset label{
     }
 }
 /* Fim media 768px */
+
+@media screen and (max-width: 460px){
+    .cabecalho .fa-bars{
+        display: block;
+    }
+    .cabecalho div{
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0em 2em;
+    }
+    #menu{
+        position: absolute;
+        top: 73px;
+        background: #1E1C21;
+        width: 100%;
+        display: none;
+    }
+    .cabecalho ul{
+        flex-direction: column;
+        height: 250px;
+    }
+    .cabecalho ul a{
+        padding: 0.5em 80% 0.5em 0.5em;
+        margin: 0.1em 0;
+        margin-left: 2em;
+    }
+    /* Ocultar a Campea no mobile */
+    .campea{
+        display: none;
+    }
+}
