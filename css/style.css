@@ -177,7 +177,6 @@ ul{
 }
 .card h4{
     padding: 1em 0 0 1em;
-    text-align: center;
 }
 .card p{
     padding: 1em;
@@ -354,8 +353,43 @@ fieldset label{
     }
     .sobre .container div{
         width: 55%;
-        margin-left: 25px;
+        margin-left: 30px;
     }
-  
+    .ao_vivo{
+        padding: 5.3em 3px;
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .em_breve{
+        flex-wrap: wrap;
+        width: 40%;
+    }
+    .em_breve .partida{
+        margin: 0.5em 0;
+    }
+    /* Seções Notícias */
+    .noticias{
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        width: 100%;
+    }
+    .card img{
+        width: 30%;
+    }
+    footer .container{
+        width: 94%;
+        padding-top: 0.3em;
+    }
+    .mob_logo_sociais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mob_logo_sociais img{
+        max-width: 180px;
+    }
 }
 /* Fim media 768px */
